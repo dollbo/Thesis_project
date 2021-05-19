@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Created on Thu May  6 10:14:30 2021
 
@@ -60,29 +59,6 @@ v = literal_eval(df.iloc[9,3])
 mem10_val10 = v[0:195]
 
 """
-"""
-y = np.array(mem1_val3)
-x = np.array(range(0,len(y)))
-
-x_new = np.linspace(1, 1000, 5)
-a_BSpline = scipy.interpolate.make_interp_spline(x, y)
-y_new = a_BSpline(x_new)
-
-plt.plot(x_new, y_new, color= "gold")
-plt.ylim(0,10)
-plt.show()
-
-
-#plt.plot(x,y)
-#plt.show()
-
-"""
-
-
-players = ["short", "mid", "long"]
-opponents = ["Cooperator", "Defector", "Tit For Tat", "Grudger", "Random", "Two Tits For Tat",
-             "Suspicious Tit For Tat", "Tit For 2 Tats", "Win-Stay Lose-Shift", "Mixed Memory Q-Learner" ]
-
 
 plt.plot(mem1_val1, label = "Cooperator", color = "blue")
 plt.plot(mem1_val2, label = "Defector", color = "red")
