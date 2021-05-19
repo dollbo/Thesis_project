@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Created on Thu May  6 11:13:16 2021
 
@@ -15,7 +14,7 @@ import numpy as np
 
 """
 MixedMemoryQLearner against 9 default strategies
-alpha 0.9, epsilon 1.0, decay//1.5
+alpha 0.5, epsilon 0.1, decay//1.5
 """
 random.seed(1)
 savedQs_MMQL10 = {} 
