@@ -1,4 +1,4 @@
-# Thesis
+# Mixed Memory Q-Learner Thesis Project
 
 This repository contains files from my thesis project "Mixed Memory Q-Learner - an adaptive reinforcement learning algorithm for the Iterated Prisoner's Dilemma". 
 MMQL is a meta-strategy using a team of Q-learning players with different state-representations (in this context: memory length).
